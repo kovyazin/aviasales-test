@@ -1,0 +1,32 @@
+.btn {
+  width: 50%;
+  height: 50px;
+
+  color: #4a4a4a;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  background: #fff;
+  border: 1px solid #dfe5ec;
+
+  cursor: pointer;
+}
+
+.btn:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.btn:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.btn.active {
+  color: #fff;
+
+  background-color: #2196f3;
+  border: none;
+}

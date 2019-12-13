@@ -1,0 +1,31 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 103px 120px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 42px 0 34px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sidebar {
+  flex: 0 1 232px;
+  margin-right: 20px;
+}
+
+.tickets {
+  flex: 1;
+}
+
+.ticketsItem {
+  margin-top: 20px;
+}
